@@ -1,0 +1,14 @@
+{
+  "name": "menotaai-api",
+  "version": "1.0.0",
+  "description": "A API \"Me nota aí\" serve para sanar ambientes sem feedback ou nenhum tipo de medição de qualidade, permitindo que, tanto funcionários como gestores, possam dar e receber feedback internamente de forma construtiva e voltada para melhoras",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "feedback"
+  ],
+  "author": "Gabriel Gusmão",
+  "license": "ISC"
+}
