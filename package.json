@@ -4,11 +4,17 @@
   "description": "A API \"Me nota aí\" serve para sanar ambientes sem feedback ou nenhum tipo de medição de qualidade, permitindo que, tanto funcionários como gestores, possam dar e receber feedback internamente de forma construtiva e voltada para melhoras",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/app.js"
   },
   "keywords": [
     "feedback"
   ],
   "author": "Gabriel Gusmão",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
